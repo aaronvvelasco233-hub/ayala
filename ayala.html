@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Checker Ayala</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
+  <link rel="icon" type="image/webp " href="assets/img/alliance.webp">
+
+</head>
+<body>
+
+  <div class="container">
+    <ul class="nav-list">
+        <li><a href="resources.html">Resources</a></li>
+        <li><a href="ayala.html"> Ayala</a></li>
+        <li><a href="araneta.html"> Araneta</a></li>
+        <li> <a href="">Upcoming</a></li>
+        <li><a href="">More</a></li>
+    </ul>
+    <h2>AYALA CHECKER</h2>
+  <div>
+    <span id="fileCount" style="margin-right: 10px; font-weight: bold; color:white;"></span>
+    <label for="fileInput" class="file-label">Choose Files</label>
+    <input type="file" id="fileInput" multiple required>
+  </div> 
+    <button id="processButton" class="btn btn-green">Upload</button>
+    <button id="clear" class="btn btn-yellow">Clear</button>
+    <button id="downloadBtn" class="btn btn-red">Empty Template</button>
+
+
+    </div>
+  </div>
+
+  <div id="output"></div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/ayala.js"></script>
+</body>
+</html>

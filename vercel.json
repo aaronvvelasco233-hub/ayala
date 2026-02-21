@@ -1,0 +1,32 @@
+{
+    "rewrites": [
+        {
+            "source": "/",
+            "destination": "/resources.html"
+        },
+        {
+            "source": "/resources",
+            "destination": "/resources.html"
+        },
+        {
+            "source": "/arenata",
+            "destination": "/arenata.html"
+        },
+        {
+            "source": "/ayala",
+            "destination": "/ayala.html"
+        }
+    ],
+        
+    "headers": [
+        {
+            "source": "/(.*)",
+            "headers": [
+                {
+                    "key": "Cache-Control",
+                    "value": "public, max-age=0, must-revalidate"
+                }
+            ]
+        }
+    ]
+}
